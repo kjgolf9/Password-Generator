@@ -92,14 +92,15 @@ var password = "";
 
 function generatePassword() {
   var length = parseInt(
-    prompt("how long do you want the password to be minimum 8, maximum 128"));
+    prompt("how long do you want the password to be minimum 8, maximum 128")
+  );
   if (length < 8 || length > 128) {
     alert("password cannot be less than 8 or greater than 128");
     return "";
   }
-  if(Number.isNaN(length)){
-    alert("length must be a number")
-    return""
+  if (Number.isNaN(length)) {
+    alert("length must be a number");
+    return "";
   }
   var special = confirm("click ok to include special characters");
   var numbers = confirm("click ok to include numbers");
