@@ -1,8 +1,8 @@
 # Password-Generator
 Javascript Password Generator
 
-[
-](https://kjgolf9.github.io/Password-Generator/)
+https://kjgolf9.github.io/Password-Generator/
+
 <img width="1680" alt="Screenshot 2023-06-08 at 7 11 27 PM" src="https://github.com/kjgolf9/Password-Generator/assets/129339387/31b837bb-3e64-4b66-9581-5b9552232004">
 
 
